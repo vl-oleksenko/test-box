@@ -1,0 +1,222 @@
+@import '../common/vars';
+
+.advantage {
+    background-color: #F6F9FC;
+    
+    &__title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 36px;
+    }
+    
+    &__top {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        margin: 25px -8.5px 75px;
+        max-width: 1105px;
+    }
+
+    &__vector {
+        position: absolute;
+        top: -4px;
+        left: -13px;
+        width: 100%;
+    }
+
+    &__vector-target {
+        position: absolute;
+        bottom: 0;
+        left: 322.5px;
+    }
+
+    &__bar-graph {
+        position: absolute;
+        left: 445px;
+        bottom: 110px;
+    }
+
+    &__surface {
+        position: absolute;
+        bottom: 45px;
+        left: 630px;
+    }
+
+    &__up {
+        position: absolute;
+        right: -115px;
+        bottom: -40px;
+    }
+
+    &__col {
+        position: relative;
+        width: calc(100% / 5);
+        // max-width: 200px;
+        height: 100%;
+        padding: 0 8.5px;
+        
+
+        &:first-child {
+            margin-left: 110px;
+        }
+
+        &:nth-child(1) {
+            margin-top: 50px;
+        }
+
+        &:nth-child(3) {
+            margin-top: 100px;
+        }
+
+        &:nth-child(4) {
+            margin-top: 175px;
+        }
+
+        &:nth-child(5) {
+            margin-top: 70px;
+        }
+    }
+
+    &__card {
+        border-radius: 10px;
+        background-color: $card-bg;
+        box-shadow: 0px 10px 30px #F0F9FF;
+        max-width: 182px;
+    }
+
+    &__ellipse {
+        position: absolute;
+        top: -9px;
+        left: calc(50% - 9px);
+    }
+
+    &__svg-box {}
+
+    &__svg-pc {
+        padding: 41px 38% 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__svg-calendar {
+        padding: 29px 37% 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__svg-sheet {
+        padding: 35px 37% 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__svg-report {
+        padding: 35px 37% 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__svg-clipboard {
+        padding: 30px 37% 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__body-pc {
+        width: 100%;
+        padding: 0 25px 23px;
+    }
+
+    &__body-calendar {
+        width: 100%;
+        padding: 0 30px 16px 25px;
+    }
+
+    &__body-sheet {
+        width: 100%;
+        padding: 0 25px 23px;
+    }
+
+    &__body-report {
+        width: 100%;
+        padding: 0 10px 23px 18px;
+    }
+
+    &__body-clipboard {
+        width: 100%;
+        padding: 0 20px 23px 25px;
+    }
+    
+    &__text--color {
+        color: $secondary-color;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        padding: 75px 0 50px;
+    }
+
+    &__points {
+        display: flex;
+        margin: 0 -17px;
+        max-width: 1030px;
+        margin-bottom: 25px;
+    }
+        
+
+    &__points-col {
+        margin: 0 17px;
+        border: 1px solid #525D7D;
+        border-radius: 10px;
+        padding: 40px 0 35px;
+        width: calc(100% / 3);
+        background-color: $card-bg;
+        text-align: center;
+        position: relative;
+        
+    }
+
+    &__bottom-vector {
+        position: absolute;
+        top: -26px;
+        left: calc(50% - 26px);
+    }
+
+    &__size {
+
+        &--target {
+            padding: 40px 70px 35px 75px;
+        }
+
+        &--resalt {
+            padding: 40px 40px 35px;
+        }
+
+        &--factors {
+            padding: 40px 33px 35px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    // &__points-box {
+
+    //     &--target {
+    //         width: 180px;
+    //     }
+
+    //     &--resalt {
+    //         width: 205px;
+    //     }
+
+    //     &--factors {
+    //         width: 200px;
+    //     }
+    // }
+    
+}

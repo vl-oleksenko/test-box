@@ -1,0 +1,41 @@
+@import './vars';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2C2C2C;
+    min-width: 320px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: all .3s;
+}
+
+.container {
+    max-width: 1260px;
+    padding: 30px;
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+
+
+$main-fz: 16px;
+$main-fw: 400;
+$main-lh: 1.4;
+$main-ff: 'Montserrat', Arial, Helvetica, sans-serif;
+$secondary-ff: 'Oswald', Arial, Helvetica, sans-serif;
+
+$main-color: #000;
+$secondary-color: #EA7000;
+$card-bg: rgba(255, 255, 255, 0.98);
+$trs: all .3s;
+
+$mobile-low: 479px;
+$mobile-width: 767px;
+$tablet-width: 1024px;
+$desktop-width: 1366px;
+
+@mixin b($breakpoints) {
+  @if ($breakpoints == desktop) {
+    @media (max-width: #{$desktop-width}) {
+      @content
+    }
+  }
+  @if ($breakpoints == tablet) {
+    @media (max-width: #{$tablet-width}) {
+      @content
+    }
+  } @else if ($breakpoints == mobile) {
+    @media (max-width: #{$mobile-width}) {
+      @content
+    }
+  } @else if ($breakpoints == mobile-sm) {
+    @media (max-width: #{$mobile-low}) {
+      @content
+    }
+  } @else {
+    @media (max-width: $breakpoints + px) {
+      @content
+    }
+  }
+}
