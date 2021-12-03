@@ -75,8 +75,8 @@ a {
 }
 .advantage__vector {
   position: absolute;
-  top: -4px;
-  left: -13px;
+  top: -7px;
+  left: -30px;
   width: 100%;
 }
 .advantage__vector-target {
@@ -109,16 +109,16 @@ a {
   margin-left: 110px;
 }
 .advantage__col:nth-child(1) {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 .advantage__col:nth-child(3) {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .advantage__col:nth-child(4) {
-  margin-top: 175px;
+  margin-top: 165px;
 }
 .advantage__col:nth-child(5) {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .advantage__card {
   border-radius: 10px;
